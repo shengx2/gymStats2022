@@ -1,0 +1,38 @@
+/* Colour Palette
+-------------------------------------- */
+/* 
+
+/* Global styles
+------------------------------------*/
+
+
+/* font-styling
+------------------------------------*/
+a, tr, td {
+    font-family: 'Manrope', sans-serif;
+}
+
+.list-group-item.active {
+    background-color: #a11938;  
+    border-color: #a11938; 
+}
+
+/* /* Responsive
+------------------------------------*/
+/* @media screen and (min-width:750px){
+    header, footer {
+        text-align: center;        
+}
+}  */
+/* @media screen and (max-width:749px){
+    h1 {
+       font-size: 60px;
+      
+    }
+}     */
+/* @media screen and (max-width:485px){
+    h1 {
+        line-height: 0.9; 
+    }    
+} */
+    

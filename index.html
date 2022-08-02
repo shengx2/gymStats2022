@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Stats</title>
+
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">  
+</head>
+
+<header>
+    <section class="text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Album example</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-lg btn-danger my-5" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+      </section>
+</header>
+<body class="container my-5">
+    <main>
+      <div class="mt-5 mb-3">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="fw-light">1. Back Squat, Bench Press and the Deadlift</h1>
+          </div>
+        </div>
+      </div>
+      <!-- Squat, Bench and the Deadlift -->
+      <div class="row mt-1 text-center">
+        <div class="col-2 col-lg-3">
+          </div>
+              <div class="col-8 col-lg-6">
+                <div class="list-group border border-dark mb-4" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-back-list" data-bs-toggle="list" href="#list-back-squat" role="tab" aria-controls="list-back-squat">Back Squat</a>
+                  <a class="list-group-item list-group-item-action" id="list-bench-list" data-bs-toggle="list" href="#list-bench" role="tab" aria-controls="list-bench">Bench Press</a>
+                  <a class="list-group-item list-group-item-action" id="list-dead-list" data-bs-toggle="list" href="#list-dead" role="tab" aria-controls="list-dead">Deadlift</a>
+                </div>             
+              </div>
+              <div class="col-2 col-lg-3">
+              </div>
+          </div>
+      
+        
+            <div class="row">
+              <div class="col-12">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-back-squat" role="tabpanel" aria-labelledby="list-back-squat">
+                    <!-- Squat -->
+                    <table class="list-group mb-4">
+                      <tr class="list-group-item">
+                        <th>10/12/2014</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>95 kg | 5 reps (1rm 110 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>23/08/2019</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>125 kg | 1 reps (1rm 125 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>06/06/2021</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>80 kg | 5 reps (1rm 92 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>21/07/2021</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>85 kg | 8 reps (1rm 106 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>15/09/2021</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>100 kg | 5 reps (1rm 115 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>06/10/2021</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>100 kg | 6 reps (1rm 118 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>...</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>...</td>           
+                      </tr>  
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="list-bench" role="tabpanel" aria-labelledby="list-bench">
+                     <!-- Bench -->
+                    <table class="list-group mb-4">
+                      <tr class="list-group-item">
+                        <th>31/10/2014</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>85 kg | 5 reps (1rm 98 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>07/08/2019</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>100 kg | 1 reps (1rm 100 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>26/07/2021</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>72.5 kg | 7 reps (1rm 88 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>19/01/2022</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>70 kg | 8 reps (1rm 87 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>12/02/2022</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>80 kg | 6 reps (1rm 94 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>04/05/2022</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>82.5 kg | 5 reps (1rm 95 kg)</td>           
+                      </tr>   
+                      <tr class="list-group-item">
+                        <th>19/05/2022</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>82.5 kg | 6 reps (1rm 99 kg)</td>           
+                      </tr>      
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="list-dead" role="tabpanel" aria-labelledby="list-dead">
+                     <!-- Dead -->
+                    <table class="list-group mb-4">
+                      <tr class="list-group-item">
+                        <th>08/12/2012</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>105 kg | 4 reps (1rm 118 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>31/08/2015</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>160 kg | 1 reps (1rm 160 kg)</td>           
+                      </tr>
+                      <tr class="list-group-item">
+                        <th>30/06/2021</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>100 kg | 4 reps (1rm 112 kg)</td>           
+                      </tr>  
+                      <tr class="list-group-item">
+                        <th>...</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>...</td>           
+                      </tr>  
+                      <tr class="list-group-item">
+                        <th>...</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>...</td>           
+                      </tr>  
+                      <tr class="list-group-item">
+                        <th>...</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>...</td>           
+                      </tr>  
+                      <tr class="list-group-item">
+                        <th>...</th>
+                      </tr>
+                      <tr class="list-group-item">
+                        <td>...</td>           
+                      </tr>  
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Overhead, Rack, Home and the Cheat Curl -->
+            <div class="mt-5 mb-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="fw-light">2. Overhead Press, Rack Pull ect.</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-1 text-center">
+              <div class="col-2 col-lg-3">
+              </div>
+              <div class="col-8 col-lg-6">
+                <div class="list-group border border-dark mb-4" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-overhead-list" data-bs-toggle="list" href="#list-overhead" role="tab" aria-controls="list-overhead">Overhead Press</a>
+                  <a class="list-group-item list-group-item-action" id="list-rack-list" data-bs-toggle="list" href="#list-rack" role="tab" aria-controls="list-rack">Rack Pull</a>
+                  <a class="list-group-item list-group-item-action" id="list-home-bench-list" data-bs-toggle="list" href="#list-home-bench" role="tab" aria-controls="list-home-bench">Home Bench Press</a>
+                  <a class="list-group-item list-group-item-action" id="list-cheat-list" data-bs-toggle="list" href="#list-cheat" role="tab" aria-controls="list-cheat">Cheat Curl</a>
+                </div>             
+              </div>
+              <div class="col-2 col-lg-3">
+              </div>
+          </div>
+
+          
+          <div class="row">
+            <div class="col-12">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-overhead" role="tabpanel" aria-labelledby="list-overhead">
+                  <!-- Overhead -->
+                  <table class="list-group mb-4">
+                    <tr class="list-group-item">
+                      <th>25/03/2019</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>50 kg | 5 reps (1rm 58 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>15/08/2020</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>50 kg | 2 reps (1rm 53 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>16/11/2021</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>60 kg | 1 reps (1rm 60 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>17/05/2022</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>57.5 kg | 3 reps (1rm 62 kg)</td>           
+                    </tr>                                  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="list-rack" role="tabpanel" aria-labelledby="list-rack">
+                  <!-- Rack -->
+                  <table class="list-group mb-4">
+                    <tr class="list-group-item">
+                      <th>01/07/2019</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>180 kg | 1 reps (1rm 180 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>07/03/2022</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>145 kg | 10 reps (1rm 190 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>15/05/2022</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>165 kg | 8 reps (1rm 205 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                  </table>                 
+                </div>
+                <div class="tab-pane fade" id="list-home-bench" role="tabpanel" aria-labelledby="list-home-bench">
+                  <!-- Home -->
+                  <table class="list-group mb-4">
+                    <tr class="list-group-item">
+                      <th>08/01/2022</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>60 kg | 14 reps (1rm 86 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>                                  
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="list-cheat" role="tabpanel" aria-labelledby="list-cheat">
+                  <!-- Cheat Curl -->
+                  <table class="list-group mb-4">
+                    <tr class="list-group-item">
+                      <th>30/01/2022</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>50 kg | 1 reps (1rm 50 kg)</td>           
+                    </tr>
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>  
+                    <tr class="list-group-item">
+                      <th>...</th>
+                    </tr>
+                    <tr class="list-group-item">
+                      <td>...</td>           
+                    </tr>                                  
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
